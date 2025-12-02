@@ -20,8 +20,8 @@ Approach A: Machine Learning
 We implemented Ensemble Learning algorithms with automated hyperparameter tuning via RandomizedSearchCV:
 - Random Forest Classifier
 - AdaBoost
-- XGBoost (Extreme Gradient Boosting)
-- CatBoost (Categorical Boosting)
+- XGBoost
+- CatBoost
 
 Approach B: Deep Learning
 We constructed Sequential architectures using TensorFlow/Keras with custom tuning loops for units, dropout rates, and learning rates:
@@ -31,7 +31,7 @@ We constructed Sequential architectures using TensorFlow/Keras with custom tunin
 
 ## Experimental Results
 
-Based on the experiments conducted, the Machine Learning approach (specifically Tree-based algorithms) significantly outperformed Deep Learning on this specific dataset. This is likely due to the tabular nature of the data and the limited dataset size, where Ensemble methods often excel over complex Neural Networks.
+Based on the experiments conducted, the Machine Learning approach significantly outperformed Deep Learning on this specific dataset. This is likely due to the tabular nature of the data and the limited dataset size, where Ensemble methods often excel over complex Neural Networks.
 
 | Model Type | Algorithm | Best Accuracy |
 | :--- | :--- | :--- |
